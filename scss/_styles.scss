@@ -6,3 +6,33 @@ body {
     background: tan;
   }
 }
+
+.header-wrapper {
+  width: 1000px;
+  margin: auto;
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+  }
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    min-width: 80px;
+    height: 50px;
+    border: 2px solid transparent;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 0 25px;
+    &:hover {
+      border: 2px solid #9f0;
+      color: #9f0;
+    }
+  }
+}
